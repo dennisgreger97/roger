@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "puppeteer": "^15.4.0"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCI-Webdev/uib-boxes-tribute.git",
+    "id": 781376677
+  },
+  "name": "uib-boxes-tribute-dennisgreger97",
+  "version": "1.0.0",
+  "description": "[![Status overview badge](../../blob/badges/.github/badges/main/badge.svg)](#-results)",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCI-Webdev/uib-boxes-tribute/issues"
+  },
+  "homepage": "https://github.com/DCI-Webdev/uib-boxes-tribute#readme",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
